@@ -1,0 +1,49 @@
+🎬 MOVIE DATABASE COMMANDS 🎬
+
+FILTER BY:
+  --genre "Action"        Find action movies
+  --season Summer         Find summer movies
+  --year 1994            Find movies from 1994
+  --rating PG-13         Find PG-13 movies
+  --min-gross 100        Movies over $100M
+
+SORT BY:
+  --sort gross           By total gross
+  --sort inflation       By inflation-adjusted (default)
+  --sort date            By release date
+  --sort title           By title
+  --sort year            By year
+  --asc                  Ascending order
+
+COMBINE THEM:
+  --genre Action --season Summer --sort inflation
+  --genre Comedy --min-gross 50 --sort gross
+  --season Winter --rating R --sort date
+
+EXAMPLES:
+  python movies.py --genre "Sci Fi" --sort inflation
+  python movies.py --season Summer --sort gross --limit 50
+  python movies.py --year 1980 --sort title --asc
+  python movies.py --info
+
+
+Filters:
+  --genre GENRE, -g GENRE     Filter by genre (e.g., "Action", "Comedy")
+  --season {Winter,Spring,Summer,Fall}, -s 
+                               Filter by season
+  --year YEAR, -y YEAR        Filter by year
+  --rating {G,PG,PG-13,R,NC-17}, -r 
+                               Filter by MPAA rating
+  --min-gross MIN_GROSS, -m MIN_GROSS 
+                               Minimum total gross in millions
+
+Sorting:
+  --sort {gross,inflation,date,title,year}
+                               Sort by (default: inflation)
+  --asc                        Sort ascending (default: descending)
+  --limit LIMIT, -l LIMIT      Number of results to show (default: 20)
+
+Output:
+  --csv                        Output as CSV format
+  --file FILE, -f FILE         CSV file path (default: movies.csv)
+  --info                       Show database info and exit
