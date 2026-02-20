@@ -1,0 +1,323 @@
+Movie Title,Date Released,Genre,MPAA Rating,Total Gross,Inflation Adjusted Gross
+Harry Potter and the Deathly Hallows: Part 2,15/07/2011,Adventure,PG-13,1342321665,0
+The Dark Knight Rises,20/07/2012,Action,PG-13,1081142612,0
+Harry Potter and the Sorcerer's Stone,16/11/2001,Adventure,PG,1006968171,0
+The Dark Knight,18/07/2008,Action,PG-13,1005973645,0
+Harry Potter and the Deathly Hallows: Part 1,19/11/2010,Adventure,PG-13,977043483,0
+Harry Potter and the Order of the Phoenix,11/07/2007,Action,PG-13,942172396,0
+Harry Potter and the Half-Blood Prince,15/07/2009,Action,PG,934454096,0
+Harry Potter and the Goblet of Fire,18/11/2005,Adventure,PG-13,896678241,0
+Harry Potter and the Chamber of Secrets,15/11/2002,Adventure,PG,879602366,0
+Batman v Superman: Dawn of Justice,25/03/2016,Action,PG-13,873637528,0
+Inception,16/07/2010,Action,PG-13,836836967,0
+Harry Potter and the Prisoner of Azkaban,04/06/2004,Adventure,PG,797361618,0
+The Matrix Reloaded,15/05/2003,Action,R,741847937,0
+Gravity,04/10/2013,Drama,PG-13,723192705,0
+Man of Steel,14/06/2013,Action,PG-13,668045518,0
+The Hangover Part II,26/05/2011,Comedy,R,586764305,0
+I Am Legend,14/12/2007,Action,PG-13,585410052,0
+American Sniper,16/01/2015,Action,R,547426372,0
+Sherlock Holmes: A Game of Shadows,16/12/2011,Action,PG-13,543848418,0
+Godzilla,16/05/2014,Action,PG-13,524976069,0
+Sherlock Holmes,25/12/2009,Action,PG-13,524028679,0
+Troy,14/05/2004,Drama,R,497409852,0
+Twister,10/05/1996,Action,PG-13,494471524,0
+Clash of the Titans,02/04/2010,Action,PG-13,493214993,0
+Charlie and the Chocolate Factory,15/07/2005,Adventure,PG,474968763,0
+The Hangover,05/06/2009,Comedy,R,469310836,0
+The Lego Movie,07/02/2014,Animation,PG,468060692,0
+The Matrix,31/03/1999,Action,R,466364845,0
+300,09/03/2007,Action,R,456068181,0
+The Last Samurai,05/12/2003,Action,R,454627263,0
+Ocean's Eleven,07/12/2001,Crime,PG-13,450717150,0
+The Matrix Revolutions,05/11/2003,Action,R,427344325,0
+Batman,23/06/1989,Action,PG-13,411508343,0
+Pacific Rim,12/07/2013,Action,PG-13,411002906,0
+Superman Returns,28/06/2006,Action,PG-13,391081192,0
+Robin Hood: Prince of Thieves,14/06/1991,Action,PG-13,390493908,0
+Happy Feet,17/11/2006,Animation,PG,384336108,0
+Mad Max: Fury Road,15/05/2015,Action,R,375658750,0
+Batman Begins,15/06/2005,Action,PG-13,373661946,0
+Edge of Tomorrow,06/06/2014,Action,PG-13,370541256,0
+The Fugitive,06/08/1993,Action,PG-13,368875760,0
+Ocean's Twelve,10/12/2004,Crime,PG-13,362744280,0
+The Great Gatsby,10/05/2013,Drama,PG-13,353642274,0
+300: Rise of an Empire,07/03/2014,Action,R,337580051,0
+Batman Forever,16/06/1995,Action,PG-13,336567158,0
+The Curious Case of Benjamin Button,25/12/2008,Drama,PG-13,335802786,0
+The Perfect Storm,30/06/2000,Action,PG-13,328718434,0
+Lethal Weapon 3,15/05/1992,Action,R,321731527,0
+Ocean's Thirteen,08/06/2007,Crime,PG-13,311312624,0
+Wrath of the Titans,30/03/2012,Action,PG-13,301970083,0
+The Departed,06/10/2006,Crime,R,291465373,0
+Lethal Weapon 4,10/07/1998,Action,R,285444603,0
+Scooby-Doo,14/06/2002,Adventure,PG,275650703,0
+"10,000 BC",07/03/2008,Action,PG-13,269784201,0
+Batman Returns,19/06/1992,Action,PG-13,266892996,0
+You've Got Mail,18/12/1998,Comedy,PG,250821495,0
+Dark Shadows,11/05/2012,Comedy,PG-13,245527149,0
+Batman & Robin,20/06/1997,Action,PG-13,238235719,0
+A.I. Artificial Intelligence,29/06/2001,Drama,PG-13,235926552,0
+Argo,12/10/2012,Biography,R,232325503,0
+Constantine,18/02/2005,Action,R,230884728,0
+Get Smart,20/06/2008,Action,PG-13,230685453,0
+Space Jam,15/11/1996,Animation,PG,230418342,0
+Lethal Weapon 2,07/07/1989,Action,R,227853986,0
+Yes Man,19/12/2008,Comedy,PG-13,223241637,0
+Presumed Innocent,27/07/1990,Mystery,R,221303188,0
+Green Lantern,17/06/2011,Action,PG-13,219851172,0
+Million Dollar Baby,28/01/2005,Drama,PG-13,216763646,0
+Disclosure,09/12/1994,Drama,R,214015089,0
+Due Date,05/11/2010,Comedy,R,211780824,0
+JFK,20/12/1991,Drama,R,205405498,0
+Yogi Bear,17/12/2010,Animation,PG,203509374,0
+Cats & Dogs,04/07/2001,Action,PG,200687492,0
+The Pelican Brief,17/12/1993,Crime,PG-13,195268056,0
+Outbreak,10/03/1995,Action,R,189859560,0
+Heat,15/12/1995,Crime,R,187436818,0
+Watchmen,06/03/2009,Action,R,185382813,0
+Jupiter Ascending,06/02/2015,Action,PG-13,183887723,0
+The Bridges of Madison County,02/06/1995,Drama,PG-13,182016617,0
+Poseidon,12/05/2006,Action,PG-13,181674817,0
+Scooby-Doo 2: Monsters Unleashed,26/03/2004,Adventure,PG,181216833,0
+The Bucket List,11/01/2008,Adventure,PG-13,175372502,0
+Blood Diamond,08/12/2006,Adventure,R,171720398,0
+Contact,11/07/1997,Drama,PG,171120329,0
+The Specialist,07/10/1994,Action,R,170362582,0
+Alexander,24/11/2004,Action,R,167298192,0
+Deep Blue Sea,28/07/1999,Action,R,164648142,0
+Eyes Wide Shut,16/07/1999,Drama,,162242684,0
+Happy Feet Two,18/11/2011,Animation,PG,159197038,0
+Unforgiven,07/08/1992,Drama,R,159157447,0
+Mystic River,15/10/2003,Crime,R,156595191,0
+Under Siege,09/10/1992,Action,R,156563139,0
+The Accountant,14/10/2016,Action,R,155160045,0
+The Phantom of the Opera,10/12/2004,Drama,PG-13,154649125,0
+The Town,17/09/2010,Crime,R,154026136,0
+Free Willy,16/07/1993,Adventure,PG,153698625,0
+Gremlins,08/06/1984,Comedy,PG,153633143,0
+The Devil's Advocate,17/10/1997,Drama,R,152944660,0
+Legend of the Guardians: the Owls of Ga'Hoole,24/09/2010,Animation,PG,140073390,0
+Conspiracy Theory,08/08/1997,Action,R,136982834,0
+Contagion,09/09/2011,Drama,PG-13,136515867,0
+A Perfect World,24/11/1993,Crime,PG-13,135130999,0
+V for Vendetta,17/03/2006,Action,R,132511035,0
+Pan,09/10/2015,Adventure,PG,128388320,0
+A Perfect Murder,05/06/1998,Crime,R,128038368,0
+Forever Young,16/12/1992,Drama,PG,127956187,0
+The Time Machine,08/03/2002,Action,PG-13,123729176,0
+Invictus,11/12/2009,Biography,PG-13,122426792,0
+Executive Decision,15/03/1996,Action,R,121969216,0
+Lethal Weapon,06/03/1987,Action,R,120207127,0
+Message in a Bottle,12/02/1999,Drama,PG-13,118880016,0
+Corpse Bride,23/09/2005,Animation,PG,118090836,0
+Magic Mike XXL,01/07/2015,Comedy,R,117813057,0
+The Client,20/07/1994,Crime,PG-13,117615211,0
+Dennis the Menace,25/06/1993,Comedy,PG,117270765,0
+Body of Lies,10/10/2008,Action,R,115900897,0
+The Lake House,16/06/2006,Drama,PG,114830111,0
+Fool's Gold,08/02/2008,Action,PG-13,111231041,0
+The Dukes of Hazzard,05/08/2005,Comedy,PG-13,111069515,0
+Three Kings,01/10/1999,Action,R,107752036,0
+The Man from U.N.C.L.E.,14/08/2015,Action,PG-13,107045109,0
+Hereafter,22/10/2010,Drama,PG-13,106956330,0
+Gangster Squad,11/01/2013,Action,R,105200903,0
+The Campaign,10/08/2012,Comedy,R,104907746,0
+Training Day,05/10/2001,Crime,R,104876233,0
+Under Siege 2: Dark Territory,14/07/1995,Action,R,104324083,0
+U.S. Marshals,06/03/1998,Action,PG-13,102367405,0
+Any Given Sunday,22/12/1999,Drama,R,100230832,0
+Where the Wild Things Are,16/10/2009,Adventure,PG,100140916,0
+The Lucky One,20/04/2012,Drama,PG-13,99357138,0
+Fred Claus,09/11/2007,Comedy,PG,97838349,0
+42,12/04/2013,Biography,PG-13,97470701,0
+Syriana,09/12/2005,Drama,R,93974620,0
+Speed Racer,09/05/2008,Action,PG,93945766,0
+In the Heart of the Sea,11/12/2015,Action,PG-13,93920758,0
+Romeo Must Die,22/03/2000,Action,R,91036760,0
+Red Riding Hood,11/03/2011,Fantasy,PG-13,90260376,0
+Sucker Punch,25/03/2011,Action,PG-13,89792502,0
+Rumor Has It...,25/12/2005,Comedy,PG-13,88933562,0
+The Judge,10/10/2014,Crime,R,84419388,0
+Nights in Rodanthe,26/09/2008,Drama,PG-13,84375346,0
+Firewall,10/02/2006,Action,PG-13,82751189,0
+Catwoman,23/07/2004,Action,PG-13,82102379,0
+Edge of Darkness,29/01/2010,Action,R,81126522,0
+Exit Wounds,16/03/2001,Action,R,79958599,0
+Collateral Damage,08/02/2002,Action,R,78382433,0
+National Lampoon's Christmas Vacation,01/12/1989,Comedy,PG-13,73594646,0
+Lady in the Water,21/07/2006,Drama,PG-13,72785169,0
+Run All Night,13/03/2015,Action,R,71561644,0
+Purple Rain,27/07/1984,Drama,R,70263155,0
+License to Wed,03/07/2007,Comedy,PG-13,70181325,0
+A Cinderella Story,16/07/2004,Comedy,PG,70067909,0
+Private Benjamin,10/10/1980,Comedy,R,69847348,0
+The Brave One,14/09/2007,Action,R,69787394,0
+House of Wax,06/05/2005,Horror,R,68766121,0
+Looney Tunes: Back in Action,14/11/2003,Animation,PG,68514844,0
+Thir13en Ghosts,26/10/2001,Fantasy,R,68467960,0
+Ghost Ship,25/10/2002,Horror,R,68349884,0
+Sudden Impact,09/12/1983,Action,R,67642693,0
+August Rush,21/11/2007,Drama,PG,66122026,0
+Sweet November,16/02/2001,Drama,PG-13,65754228,0
+Matchstick Men,12/09/2003,Comedy,PG-13,65565672,0
+Taking Lives,19/03/2004,Crime,R,65470529,0
+The Goonies,07/06/1985,Adventure,PG,63980721,0
+The Witches of Eastwick,12/06/1987,Comedy,R,63766510,0
+Tango & Cash,22/12/1989,Action,R,63408614,0
+Dave,07/05/1993,Comedy,PG-13,63270710,0
+The Nice Guys,20/05/2016,Action,R,62788218,0
+The Reaping,05/04/2007,Horror,R,62771059,0
+Ninja Assassin,25/11/2009,Action,R,61601280,0
+Spies Like Us,06/12/1985,Adventure,PG,60088980,0
+Must Love Dogs,29/07/2005,Comedy,PG-13,58231520,0
+Demolition Man,08/10/1993,Action,R,58055768,0
+Murder by Numbers,19/04/2002,Crime,R,56714147,0
+Cradle 2 the Grave,28/02/2003,Action,R,56489558,0
+Pay It Forward,20/10/2000,Drama,PG-13,55707411,0
+Cop Out,26/02/2010,Action,R,55611001,0
+Police Academy 2: Their First Assignment,29/03/1985,Comedy,PG-13,55600000,0
+Extremely Loud & Incredibly Close,20/01/2012,Adventure,PG-13,55247881,0
+The Ant Bully,28/07/2006,Animation,PG,55181129,0
+Analyze That,06/12/2002,Comedy,R,55003135,0
+Doc Hollywood,02/08/1991,Comedy,PG-13,54830779,0
+What a Girl Wants,04/04/2003,Comedy,PG,50732139,0
+Natural Born Killers,26/08/1994,Action,R,50283563,0
+Entourage,03/06/2015,Comedy,R,49263404,0
+Cobra,23/05/1986,Action,R,49042224,0
+Trouble with the Curve,21/09/2012,Drama,PG-13,48963137,0
+New Jack City,08/03/1991,Action,R,47624353,0
+A Walk to Remember,25/01/2002,Drama,PG,47494916,0
+Hard to Kill,09/02/1990,Action,R,47410827,0
+The Shining,13/06/1980,Drama,R,46998772,0
+Goodfellas,21/09/1990,Biography,R,46963277,0
+Torque,16/01/2004,Action,PG-13,46546197,0
+Eight Legged Freaks,17/07/2002,Action,PG-13,45867333,0
+"Greystoke: The Legend of Tarzan, Lord of the Apes",30/03/1984,Adventure,PG,45858563,0
+Queen of the Damned,22/02/2002,Drama,R,45479110,0
+Passenger 57,06/11/1992,Action,R,44065653,0
+We Are Marshall,22/12/2006,Drama,PG,43545364,0
+See Spot Run,02/03/2001,Action,PG,43057552,0
+The Informant!,18/09/2009,Biography,R,41771168,0
+Gremlins 2: The New Batch,15/06/1990,Comedy,PG-13,41482207,0
+Pee-wee's Big Adventure,09/08/1985,Adventure,PG,40940662,0
+The Invasion,17/08/2007,Sci-Fi,PG-13,40170558,0
+Joe Versus the Volcano,09/03/1990,Comedy,PG,39404261,0
+The Wicker Man,01/09/2006,Horror,PG-13,38805380,0
+City Heat,07/12/1984,Action,PG,38348988,0
+Richie Rich,21/12/1994,Comedy,PG,38087756,0
+The Dead Pool,13/07/1988,Action,R,37903295,0
+Sphere,13/02/1998,Action,PG-13,37020277,0
+Just Cause,17/02/1995,Action,R,36853222,0
+Best Friends,17/12/1982,Comedy,PG,36821203,0
+Valentine,02/02/2001,Horror,R,36684136,0
+Vegas Vacation,14/02/1997,Comedy,PG,36400360,0
+Addicted to Love,23/05/1997,Comedy,R,34673095,0
+Malibu's Most Wanted,18/04/2003,Comedy,PG-13,34622504,0
+Jack Frost,11/12/1998,Comedy,PG,34562556,0
+Curly Sue,25/10/1991,Comedy,PG,33691313,0
+Red Planet,10/11/2000,Action,PG-13,33463969,0
+The Box,06/11/2009,Drama,PG-13,33334176,0
+The Accidental Tourist,06/01/1989,Drama,PG,32632093,0
+The Invention of Lying,02/10/2009,Comedy,PG-13,32406507,0
+The Lost Boys,31/07/1987,Comedy,R,32388898,0
+The Secret Garden,13/08/1993,Drama,G,31181347,0
+Nuts,11/12/1987,Drama,R,30950002,0
+Nancy Drew,15/06/2007,Comedy,PG,30666930,0
+Major League II,30/03/1994,Comedy,PG,30626182,0
+Assassins,06/10/1995,Action,R,30303072,0
+Free Willy 2: The Adventure Home,19/07/1995,Adventure,PG,30077111,0
+Point of No Return,19/03/1993,Action,R,30038362,0
+Battlefield Earth,12/05/2000,Action,PG-13,29725663,0
+The Losers,23/04/2010,Action,PG-13,29397654,0
+Shorts,21/08/2009,Adventure,PG,28972508,0
+Final Analysis,07/02/1992,Drama,R,28590665,0
+Police Academy 4: Citizens on Patrol,03/04/1987,Comedy,PG,28061343,0
+Innerspace,01/07/1987,Action,PG,25893810,0
+Murder at 1600,18/04/1997,Action,R,25804707,0
+RocknRolla,31/10/2008,Action,R,25740863,0
+Other People's Money,18/10/1991,Comedy,R,25682090,0
+North Country,21/10/2005,Drama,R,25211175,0
+Midnight in the Garden of Good and Evil,21/11/1997,Crime,R,25105255,0
+Wyatt Earp,24/06/1994,Adventure,PG-13,25052000,0
+Bronco Billy,11/06/1980,Action,PG,24265659,0
+The Avengers,14/08/1998,Action,PG-13,23384939,0
+The Iron Giant,06/08/1999,Animation,PG,23180087,0
+Quest for Camelot,15/05/1998,Animation,G,22510798,0
+White Oleander,11/10/2002,Drama,PG-13,21672284,0
+The Rookie,07/12/1990,Action,R,21633874,0
+"Oh, God! You Devil",09/11/1984,Comedy,PG,21538850,0
+New York Minute,07/05/2004,Comedy,PG,21289826,0
+Beerfest,25/08/2006,Comedy,R,20387597,0
+The Glimmer Man,04/10/1996,Action,R,20351264,0
+Altered States,25/12/1980,Horror,R,19853892,0
+Summer Catch,24/08/2001,Comedy,PG-13,19772447,0
+Police Academy 5: Assignment: Miami Beach,18/03/1988,Comedy,PG,19510371,0
+Rock Star,07/09/2001,Drama,R,19334145,0
+Little Giants,14/10/1994,Comedy,PG,19306362,0
+Deathtrap,19/03/1982,Comedy,PG,19282134,0
+Above the Law,22/04/1988,Action,R,18869631,0
+Her Alibi,03/02/1989,Comedy,PG,18699037,0
+Singles,18/09/1992,Comedy,PG-13,18471850,0
+Whiteout,11/09/2009,Action,R,17976667,0
+Frantic,26/02/1988,Crime,R,17637950,0
+The Mission,31/10/1986,Adventure,PG,17502499,0
+Murder in the First,20/01/1995,Drama,R,17381942,0
+The NeverEnding Story II: The Next Chapter,08/02/1991,Adventure,PG,17373527,0
+True Crime,19/03/1999,Crime,R,16649768,0
+The Fountain,22/11/2006,Drama,PG-13,16468343,0
+Crossing Delancey,16/09/1988,Comedy,PG,16262415,0
+Fire Down Below,05/09/1997,Action,R,16228448,0
+Kiss Kiss Bang Bang,18/11/2005,Comedy,R,15785148,0
+The Bonfire of the Vanities,21/12/1990,Comedy,R,15691192,0
+Pure Country,23/10/1992,Drama,PG,15164458,0
+The Assassination of Jesse James by the Coward Robert Ford,19/10/2007,Biography,R,15001776,0
+Arthur 2: on the Rocks,08/07/1988,Comedy,PG,14681192,0
+Soldier,23/10/1998,Action,R,14594226,0
+"Oh, God! Book II",03/10/1980,Comedy,PG,14504277,0
+Memoirs of an Invisible Man,28/02/1992,Comedy,PG-13,14358033,0
+Osmosis Jones,10/08/2001,Animation,PG,14026418,0
+The Man Who Knew Too Little,14/11/1997,Comedy,PG,13717039,0
+Class Act,05/06/1992,Comedy,PG-13,13272113,0
+Rosewood,21/02/1997,Action,R,13130349,0
+Vision Quest,15/02/1985,Drama,R,12993175,0
+Club Paradise,11/07/1986,Comedy,PG-13,12308521,0
+Police Academy 6: City Under Siege,10/03/1989,Comedy,PG,11567217,0
+Young Einstein,04/08/1989,Comedy,PG,11536599,0
+Fair Game,03/11/1995,Action,R,11534477,0
+The Apparition,24/08/2012,Horror,PG-13,11350665,0
+Michael Collins,25/10/1996,Biography,R,11135803,0
+The Astronaut Farmer,23/02/2007,Adventure,PG,11130889,0
+Jonah Hex,18/06/2010,Action,PG-13,10903312,0
+Moving,04/03/1988,Comedy,R,10815378,0
+Three to Tango,22/10/1999,Comedy,PG-13,10570375,0
+Deal of the Century,04/11/1983,Comedy,PG,10369581,0
+Disorderlies,14/08/1987,Comedy,PG,10348437,0
+Under the Cherry Moon,02/07/1986,Comedy,PG-13,10090429,0
+A Little Princess,19/05/1995,Drama,G,10015449,0
+Guilty by Suspicion,15/03/1991,Drama,PG-13,9480198,0
+Deadly Friend,10/10/1986,Drama,R,8988731,0
+Death to Smoochy,29/03/2002,Comedy,R,8382938,0
+If Looks Could Kill,15/03/1991,Action,PG-13,7788597,0
+Midnight Special,21/04/2016,Drama,PG-13,6740647,0
+Swing Shift,13/04/1984,Drama,PG,6650206,0
+Hot to Trot,26/08/1988,Comedy,PG,6436211,0
+Batman: Mask of the Phantasm,25/12/1993,Animation,PG,5635204,0
+Innocent Blood,25/09/1992,Action,R,4943279,0
+Black Beauty,29/07/1994,Adventure,G,4630377,0
+Batman: The Killing Joke,25/07/2016,Animation,R,4462034,0
+Feds,28/10/1988,Comedy,PG-13,3838793,0
+In Country,29/09/1989,Drama,R,3531971,0
+Veronica Mars,13/03/2014,Crime,PG-13,3485383,0
+Free Willy 3: The Rescue,08/08/1997,Adventure,PG,3446539,0
+Dreams,24/08/1990,Drama,PG,2970161,0
+Impulse,06/04/1990,Crime,R,2544504,0
+Just Tell Me What You Want,18/01/1980,Comedy,R,2086905,0
+The Clan of the Cave Bear,17/01/1986,Adventure,R,1953732,0
+Being Human,06/05/1994,Comedy,PG-13,1519366,0
+Of Unknown Origin,24/11/1983,Horror,R,1080470,0
+Dogfight,04/10/1991,Comedy,R,394631,0
+Police Academy: Mission to Moscow,26/08/1994,Comedy,PG,126247,0
+Fandango,25/01/1985,Comedy,PG,91666,0
+Bugs Bunny's 3rd Movie: 1001 Rabbit Tales,19/11/1982,Animation,G,78350,0
+Independence Day,09/09/1983,Drama,R,,0

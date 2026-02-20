@@ -3,7 +3,8 @@ import argparse
 import sys
 
 class MovieDB:
-    def __init__(self, csv_file='disney movie total gross.csv'): #disney db
+    def __init__(self, csv_file):  # CHANGE 1: Removed default
+        """Load the movie database from specified CSV file"""
         try:
             self.df = pd.read_csv(csv_file)
             # (DD/MM/YYYY format)
@@ -15,7 +16,7 @@ class MovieDB:
                 6: 'Summer', 7: 'Summer', 8: 'Summer',
                 9: 'Fall', 10: 'Fall', 11: 'Fall'
             })
-            print(f"Loaded {len(self.df)} movies", file=sys.stderr)
+            print(f"Loaded {len(self.df)} movies from {csv_file}", file=sys.stderr)
         except FileNotFoundError:
             print(f"error: {csv_file} not found", file=sys.stderr)
             sys.exit(1)
@@ -40,7 +41,6 @@ class MovieDB:
             result = result[result['MPAA Rating'] == rating.upper()]
         if min_gross:
             result = result[result['Total Gross'] >= float(min_gross) * 1_000_000]
-        
         return result
     
     def sort(self, data, sort_by='gross', ascending=False):
@@ -52,9 +52,9 @@ class MovieDB:
             'title': 'Movie Title',
             'year': 'Date Released'
         }
-        
+
         column = sort_columns.get(sort_by.lower(), 'Total Gross')
-        
+    
         if sort_by.lower() == 'year':
             return data.sort_values('Date Released', ascending=ascending)
         else:
@@ -79,11 +79,9 @@ class MovieDB:
         
         if limit:
             display_df = display_df.head(limit)
-        
         if format == 'csv':
             print(display_df.to_csv(index=False))
             return
-        
         # Pretty table format
         print("\n" + "="*140)
         print(f"FOUND {len(data)} MOVIES" + (f" (showing top {limit})" if limit else ""))
@@ -116,6 +114,7 @@ class MovieDB:
 
 def main():
     parser = argparse.ArgumentParser(description='🎬 Movie Database Query Tool')
+    parser.add_argument('file')
     parser.add_argument('--genre', '-g', help='Filter by genre (e.g., "Action", "Comedy")')
     parser.add_argument('--season', '-s', choices=['Winter', 'Spring', 'Summer', 'Fall'])
     parser.add_argument('--years', '-y', help='Year or year range (e.g., 1994 or 1990-1999)')
@@ -125,7 +124,6 @@ def main():
     parser.add_argument('--asc', action='store_true')
     parser.add_argument('--limit', '-l', type=int, default=20)
     parser.add_argument('--csv', action='store_true')
-    parser.add_argument('--file', '-f', default='disney movie total gross.csv', help='CSV file path (default: disney movie total gross.csv)')
     parser.add_argument('--info', action='store_true', help='Show database info and exit')
     args = parser.parse_args()
     
