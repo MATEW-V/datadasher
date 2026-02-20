@@ -1,49 +1,136 @@
-🎬 MOVIE DATABASE COMMANDS 🎬
+║                               1. FILTER OPTIONS      
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  --genre, -g      Filter by genre (partial matches work)                 │
+  │                   Example: --genre "Action"                              │
+  │                   Example: --genre "Sci Fi"                              │
+  │                                                                          │
+  │  --season, -s     Filter by season (Winter/Spring/Summer/Fall)           │
+  │                   Example: --season "Summer"                             │
+  │                   Example: --season "Winter"                             │
+  │                                                                          │
+  │  --years, -y      Filter by year or year range                           │
+  │                   Example: --years 1994                                  │
+  │                   Example: --years 1990-1999                             │
+  │                   Example: --years 2000-2010                             │
+  │                                                                          │
+  │  --rating, -r     Filter by MPAA rating (G/PG/PG-13/R/NC-17)             │
+  │                   Example: --rating "PG-13"                              │
+  │                   Example: --rating "R"                                  │
+  │                                                                          │
+  │  --min-gross, -m  Filter by minimum gross (in millions)                  │
+  │                   Example: --min-gross 100  (over $100M)                 │
+  │                   Example: --min-gross 500  (over $500M)                 │
+  └──────────────────────────────────────────────────────────────────────────┘
 
-FILTER BY:
-  --genre "Action"        Find action movies
-  --season Summer         Find summer movies
-  --year 1994            Find movies from 1994
-  --rating PG-13         Find PG-13 movies
-  --min-gross 100        Movies over $100M
+║                              2. SORTING OPTIONS 
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  --sort           How to sort results:                                   │
+  │                   • gross      - by total gross                          │
+  │                   • inflation  - by inflation-adjusted (default)         │
+  │                   • date       - by release date                         │
+  │                   • title      - by movie title                          │
+  │                   • year       - by release year                         │
+  │                                                                          │
+  │                   Examples:                                              │
+  │                   --sort gross              Highest grossing first       │
+  │                   --sort inflation           Best inflation-adjusted     │
+  │                   --sort title --asc         Alphabetical order          │
+  │                                                                          │
+  │  --asc            Sort in ascending order (default is descending)        │
+  │                   Example: --sort date --asc   Oldest movies first       │
+  │                                                                          │
+  │  --limit, -l      Number of results to show (default: 20)                │
+  │                   Example: --limit 50         Show 50 results            │
+  │                   Example: --limit 100        Show 100 results           │
+  └──────────────────────────────────────────────────────────────────────────┘
 
-SORT BY:
-  --sort gross           By total gross
-  --sort inflation       By inflation-adjusted (default)
-  --sort date            By release date
-  --sort title           By title
-  --sort year            By year
-  --asc                  Ascending order
+║                              3. OUTPUT OPTIONS                               
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  --csv            Output in CSV format (good for saving to file)         │
+  │                   Example: python movies.py --csv > results.csv          │
+  │                                                                          │
+  │  --file, -f       Specify different CSV file (default: movies.csv)       │
+  │                   Example: --file "my_movies.csv"                        │
+  │                                                                          │
+  │  --info           Show database statistics and exit                      │
+  │                   Example: python movies.py --info                       │
+  └──────────────────────────────────────────────────────────────────────────┘
 
-COMBINE THEM:
-  --genre Action --season Summer --sort inflation
-  --genre Comedy --min-gross 50 --sort gross
-  --season Winter --rating R --sort date
+║                          4. COMBINING FILTERS                              
+  ┌────────────────────────────────────────────────────────────────────────────┐
+  │  # Summer action movies                                                    │
+  │  python movies.py --genre "Action" --season "Summer"                       │
+  │                                                                            │
+  │  # 80s comedies over $50M                                                  │
+  │  python movies.py --genre "Comedy" --years 1980-1989 --min-gross 50        │
+  │                                                                            │
+  │  # Winter horror movies from the 90s                                       │
+  │  python movies.py --genre "Horror" --season "Winter" --years 1990-1999     │
+  │                                                                            │
+  │  # PG-13 summer blockbusters from 2000-2010                                │
+  │  python movies.py --season "Summer" --years 2000-2010 --rating "PG-13"     │
+  │                                                                            │
+  │  # R-rated dramas over $100M sorted by gross                               │
+  │  python movies.py --genre "Drama" --rating "R" --min-gross 100 --sort gross│
+  └────────────────────────────────────────────────────────────────────────────┘
 
-EXAMPLES:
-  python movies.py --genre "Sci Fi" --sort inflation
-  python movies.py --season Summer --sort gross --limit 50
-  python movies.py --year 1980 --sort title --asc
-  python movies.py --info
+║                          5. PRACTICAL EXAMPLES                              
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  # Show all movies (default)                                             │
+  │  python movies.py                                                        │
+  │                                                                          │
+  │  # Find all action movies                                                │
+  │  python movies.py --genre "Action"                                       │
+  │                                                                          │
+  │  # Find summer comedies from the 90s                                     │
+  │  python movies.py --genre "Comedy" --season "Summer" --years 1990-1999   │
+  │                                                                          │
+  │  # Top 10 highest grossing movies of all time                            │
+  │  python movies.py --sort gross --limit 10                                │
+  │                                                                          │
+  │  # Top 20 inflation-adjusted movies from the 70s                         │
+  │  python movies.py --years 1970-1979 --sort inflation --limit 20          │
+  │                                                                          │
+  │  # Find PG-13 movies from 2000-2010 over $100M                           │
+  │  python movies.py --years 2000-2010 --rating "PG-13" --min-gross 100     │
+  │                                                                          │
+  │  # Export all horror movies to CSV                                       │
+  │  python movies.py --genre "Horror" --csv > horror_movies.csv             │
+  │                                                                          │
+  │  # Find winter movies sorted by release date (oldest first)              │
+  │  python movies.py --season "Winter" --sort date --asc                    │
+  │                                                                          │
+  │  # Sci-fi movies from the 80s sorted by inflation                        │
+  │  python movies.py --genre "Sci Fi" --years 1980-1989 --sort inflation    │
+  │                                                                          │
+  │  # All movies rated R over $50M                                          │
+  │  python movies.py --rating "R" --min-gross 50                            │
+  └──────────────────────────────────────────────────────────────────────────┘
+
+║                         6. DATABASE INFORMATION                              
+  --->python movies.py --info                     
+  • Total number of movies
+  • Date range (earliest to latest)
+  • Breakdown by season
+  • Breakdown by rating
+  • Top 10 most common genres
 
 
-Filters:
-  --genre GENRE, -g GENRE     Filter by genre (e.g., "Action", "Comedy")
-  --season {Winter,Spring,Summer,Fall}, -s 
-                               Filter by season
-  --year YEAR, -y YEAR        Filter by year
-  --rating {G,PG,PG-13,R,NC-17}, -r 
-                               Filter by MPAA rating
-  --min-gross MIN_GROSS, -m MIN_GROSS 
-                               Minimum total gross in millions
-
-Sorting:
-  --sort {gross,inflation,date,title,year}
-                               Sort by (default: inflation)
-  --asc                        Sort ascending (default: descending)
-  --limit LIMIT, -l LIMIT      Number of results to show (default: 20)
-
-Output:
-  --csv                        Output as CSV format
-  --file FILE, -f FILE         CSV file path (default: movies.csv)
-  --info                       Show database info and exit
+║                           7. COMMAND SUMMARY                                 
+  ┌─────────────┬─────────────────────────────┬─────────────────────────────┐
+  │ SHORT       │ LONG                        │ DESCRIPTION                 │
+  ├─────────────┼─────────────────────────────┼─────────────────────────────┤
+  │ -g          │ --genre                     │ Filter by genre             │
+  │ -s          │ --season                    │ Filter by season            │
+  │ -y          │ --years                     │ Filter by year/range        │
+  │ -r          │ --rating                    │ Filter by rating            │
+  │ -m          │ --min-gross                 │ Filter by minimum gross     │
+  ├─────────────┼─────────────────────────────┼─────────────────────────────┤
+  │             │ --sort                      │ Sort method                 │
+  │             │ --asc                       │ Ascending order             │
+  │ -l          │ --limit                     │ Number of results           │
+  ├─────────────┼─────────────────────────────┼─────────────────────────────┤
+  │             │ --csv                       │ CSV output                  │
+  │ -f          │ --file                      │ Different CSV file          │
+  │             │ --info                      │ Database info               │
+  └─────────────┴─────────────────────────────┴─────────────────────────────┘
